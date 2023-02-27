@@ -1,0 +1,36 @@
+.getstarted-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.getstarted-section img {
+  max-width: 50rem;
+}
+
+.getstarted-section h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  width: 40rem;
+  text-align: center;
+  line-height: 2rem;
+  padding-block: 2rem;
+}
+
+.getstarted-section strong {
+  font-size: 1rem;
+  text-align: center;
+  width: 30rem;
+  line-height: 1.5rem;
+}
+
+.getstarted-section a {
+  background-color: #4fc5d3;
+  padding-inline: 4rem;
+  padding-block: 1rem;
+  border-radius: 3rem;
+  margin-block: 1.5rem;
+  color: white;
+  text-decoration: none;
+}

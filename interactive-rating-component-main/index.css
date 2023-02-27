@@ -1,0 +1,91 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: 'Overpass', sans-serif;
+}
+
+.card {
+  background-color: hsl(213, 19%, 18%);
+  max-width: 24rem;
+  border-radius: 1.8rem;
+  margin-top: 10rem;
+  margin-inline: auto;
+  padding: 2rem;
+}
+
+img {
+  display: block;
+  background-color: hsl(213deg 15% 24% / 75%);
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+strong {
+  font-size: 2rem;
+  display: block;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+em {
+  color: hsl(216, 12%, 54%);
+  line-height: 1.8;
+  display: block;
+  margin-block-start: 1rem;
+  margin-block-end: 2rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(216, 12%, 54%);
+  font-weight: 700;
+  font-size: 1.3rem;
+  background-color: hsl(213deg 15% 24% / 75%);
+  padding: 0.5rem;
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+  cursor: pointer;
+  transition: color 300ms ease, background-color 300ms ease;
+}
+
+input:checked + label {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+
+label:hover {
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+}
+
+li input {
+  display: none;
+}
+
+button {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  font-size: 1.1rem;
+  display: block;
+  width: 100%;
+  border: none;
+  padding-block: 1rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: color 300ms ease, background-color 300ms ease;
+}
+button:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
+}

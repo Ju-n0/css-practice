@@ -1,0 +1,59 @@
+footer a {
+  color: white;
+  text-decoration: none;
+  padding-left: 1.5rem;
+  line-height: 1.5rem;
+}
+
+footer li {
+  padding-block: 0.5rem;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-block: 2rem;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  width: 23rem;
+}
+
+.location img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.social-network-logo {
+  display: flex;
+
+  a {
+    border: 1px solid white;
+    padding-inline: 0.5rem;
+    padding-block: 0.5rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    margin-inline: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 2rem;
+  }
+}
+
+@mixin flex($align, $justify, $direction, $wrap) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+}
+
+* {
+  @include flex(center, center, column, wrap);
+}
